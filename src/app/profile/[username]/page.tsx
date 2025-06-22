@@ -251,7 +251,6 @@ const ProfilePage: React.FC = () => {
                   <h1 className="text-3xl font-bold text-gray-900 mb-2">
                     {profile.username}
                   </h1>
-                  <p className="text-gray-600 text-lg">{profile.email}</p>
                 </div>
 
                 {isOwnProfile && (
